@@ -1,11 +1,9 @@
-
 .flowername-container {
     /* border: 1px solid red; */
-    margin-top: 90px;
+    /* margin-top: 90px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .flower-text {
@@ -45,5 +43,3 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
-

@@ -1,51 +1,44 @@
-.header-container {
-    /* border: 1px solid black; */
-    height: 80px;
-    display: flex;
-    flex-direction: row;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #725c3f;
+    text-align: center;
     position: fixed;
     top: 0;
-    left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.941);
-    border-bottom: 1px solid rgba(138, 148, 138, 0.703);
+    left: 0;
 }
 
-.left-side {
-    /* background-color: pink; */
-    width: 250px;
+.container ul {
+    display: inline-flex;
+    list-style: none;
+    color: #7b4b36;
 }
 
-.middle-side {
-    /* background-color: lightblue; */
-    flex: 1;
-    margin-left: 150px;
-    margin-right: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 500px;
+.container ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
 }
 
-.right-side {
-    /* background-color: pink; */
-    width: 300px;
+.container ul li a {
+    text-decoration: solid;
+    color: #fff
 }
 
-.navigation-button {
-    font-weight: bold;
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 10px;
-    border: none;
-}
-.navigation-button:hover {
-    background-color: rgb(195, 194, 194);
-}
-.navigation-button:active {
-    background-color: rgb(142, 142, 142);
+.active,
+.container ul li a:hover {
+    background: #d8d7b2;
+    border-radius: 20px;
 }

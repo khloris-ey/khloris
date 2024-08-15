@@ -35,6 +35,8 @@
     /* border: 1px solid blue; */
     margin-top: 3px;
     height: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-name {
